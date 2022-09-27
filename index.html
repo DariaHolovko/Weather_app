@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e7652fa9b7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <form class="search">
+          <input
+            class="lookUp"
+            type="search"
+            placeholder="Enter your city"
+            autocomplete="off"
+          />
+          <input class="button" type="submit" value="🔍" />
+        </form>
+        <button class="geoLocation">Current Location</button>
+        <p class="location">Kyiv📍</p>
+        <div class="frame1">
+          <h1 class="weekDay">Saturday</h1>
+          <i class="fa-solid fa-cloud-sun"></i>
+          <p class="date">
+            22:07
+           <div class="day"> 10/09/2022</div>
+          </p>
+        </div>
+        <div class="row">
+          <div class="col temp">
+            <div class="change">
+              <a href="#" class="c">˚C</a> | <a href="#" class="f">˚F</a>
+            </div>
+             <span class="currentTemp">13˚</span>
+          </div>
+          <div class="col else">
+            Wind Speed 💨: 24 km/h
+            <br />
+            Humidity 💧: 100%
+            <br />
+            UV Factor ☂️: 0 (Low)
+            <br />
+            Visibility 🌫: 24km
+            <br />
+          </div>
+          <div class="col else1">
+            Sunrise ☀️: 06:26
+            <br />
+            Sunset 🌑: 19:22
+          </div>
+        </div>
+      </div>
+      <h2>Sunday</h2>
+      <div class="zoom-box">
+      <div class="row first">
+        <div class="col">
+          <i class="fa-solid fa-cloud-showers-heavy rainy"></i>
+        </div>
+        <div class="col forecast">
+          16˚C | 60.8˚F
+          <div class="lowerCase">H💧: 83% WS💨: 3 km/h</div>
+        </div>
+      </div>
+      </div>
+      <br />
+      <h2>Monday</h2>
+      <div class="zoom-box">
+      <div class="row first">
+        <div class="col">
+          <i class="fa-solid fa-cloud-showers-heavy rainy"></i>
+        </div>
+        <div class="col forecast">
+          14˚C | 57.2˚F
+          <div class="lowerCase">H💧: 99% WS💨: 10 km/h</div>
+        </div>
+      </div>
+      </div>
+      <br />
+      <h2>Tuesday</h2>
+      <div class="zoom-box">
+      <div class="row first">
+        <div class="col">
+          <i class="fa-solid fa-cloud-showers-heavy rainy"></i>
+        </div>
+        <div class="col forecast">
+          13˚C | 55.4˚F
+          <div class="lowerCase">H💧: 87% WS💨: 18 km/h</div>
+        </div>
+      </div>
+      </div>
+      <br />
+      <h2>Wednesday</h2>
+      <div class="zoom-box">
+      <div class="row first">
+        <div class="col"><i class="fa-solid fa-cloud cloudy"></i></div>
+        <div class="col forecast">
+          19˚C | 66˚F
+          <div class="lowerCase">H💧: 67% WS💨: 16 km/h</div>
+        </div>
+      </div>
+      </div>
+      <br />
+      <h2>Thursday</h2>
+      <div class="zoom-box">
+      <div class="row first">
+        <div class="col">
+          <i class="fa-solid fa-cloud-showers-heavy rainy"></i>
+        </div>
+        <div class="col forecast">
+          19˚C | 67˚F
+          <div class="lowerCase">H💧: 83% WS💨: 18 km/h</div>
+        </div>
+      </div>
+      </div>
+      <br />
+    </div>
+    <p class="ending">Coded by Daria Holovko</p>
+    <script src="project.js"></script>
+  </body>
+</html>
