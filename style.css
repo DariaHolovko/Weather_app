@@ -1,0 +1,174 @@
+.container {
+  font-family: "Signika Negative", sans-serif;
+  padding: 0;
+  background-color: rgb(230, 222, 238);
+}
+.top {
+  background-image: linear-gradient(
+    to right bottom,
+    #42115c,
+    #491963,
+    #50206a,
+    #582771,
+    #5f2e78,
+    #66377f,
+    #6c4087,
+    #73498e,
+    #7a5697,
+    #8262a0,
+    #8a6fa9,
+    #927bb2
+  );
+  border-radius: 0% 0% 20% 20%;
+}
+.row {
+  position: relative;
+  left: 76px;
+}
+.lookUp {
+  border-radius: 10px;
+  font-size: 17px;
+  border-style: none;
+  margin: 10px;
+  background-color: rgb(246, 239, 252);
+}
+.button {
+  border-radius: 40px;
+  border-style: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.geoLocation {
+  position: relative;
+  top: -40px;
+  right: -240px;
+  border-style: double;
+  background-color: #42115c;
+  color: #e8dafc;
+  border-color: #efe8f8;
+}
+.fa-cloud-sun {
+  font-size: 130px;
+  position: relative;
+  top: -57px;
+  display: inline;
+  float: right;
+}
+h1,
+.date {
+  position: relative;
+  left: 10px;
+  font-size: 50px;
+}
+h1,
+.fa-cloud-sun,
+.date,
+.day,
+.c,
+.f,
+.else,
+.else1 {
+  color: rgb(225, 211, 238);
+}
+.c,
+.f {
+  text-decoration: none;
+}
+.c:hover,
+.f:hover {
+  text-decoration: underline;
+  color: rgb(225, 211, 238);
+}
+.zoom-box:hover {
+  transform: scale(1.1);
+  transition: 300ms;
+}
+.location {
+  font-size: 20px;
+  color: rgb(225, 211, 238);
+  position: relative;
+  top: -40px;
+  display: inline;
+  float: right;
+}
+.date,
+.day {
+  line-height: 16px;
+  position: relative;
+  top: -3px;
+}
+.date {
+  font-size: 30px;
+}
+.day {
+  position: relative;
+  top: -5px;
+  right: -8px;
+}
+.frame1 {
+  border-style: none;
+  background-color: rgb(156, 118, 192, 0.5);
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.temp {
+  background-color: rgba(154, 110, 186, 0.389);
+  border-radius: 40px;
+  max-width: 150px;
+  margin: 20px;
+  border-style: none;
+  color: rgb(225, 211, 238);
+  padding: 10px 10px;
+  line-height: 60px;
+}
+.currentTemp {
+  position: relative;
+  right: -28px;
+  font-size: 60px;
+}
+.change {
+  font-size: 25px;
+  position: relative;
+  right: -28px;
+}
+.else,
+.else1 {
+  border-style: none;
+  border-radius: 10px;
+  background-color: rgb(156, 118, 192, 0.4);
+  margin: 15px 15px;
+  width: fit-content;
+}
+h2 {
+  text-align: center;
+  color: #491963;
+}
+.first {
+  border-style: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.409);
+  width: 500px;
+  position: sticky;
+  left: 30%;
+  right: 70%;
+  color: #491963;
+  box-shadow: 7px 7px 3px rgba(66, 65, 65, 0.408);
+}
+.rainy,
+.cloudy {
+  font-size: 90px;
+}
+.forecast {
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: 15px;
+  line-height: 30px;
+}
+.lowerCase {
+  font-size: 15px;
+}
+.ending {
+  text-align: center;
+}
